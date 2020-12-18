@@ -1,6 +1,6 @@
 # README
 # AMLS_2020-2021_20164490
-This code contains the scripts to train four models for differernt image recognition tasks. Tasks A1 and A2 involve determining the gender and smiling status of real celebrity images, and B1 and B2 aim to determine the face shape and eye colour of cartoon avatar aimages. Trained models are intended to be saved in the folder for each task to allow main.py to run.
+This code contains the scripts to train four models for differernt image recognition tasks. Tasks A1 and A2 involve determining the gender and smiling status of real celebrity images, and B1 and B2 aim to determine the face shape and eye colour of cartoon avatar aimages. Pre-trained models are intended to be saved in the folder for each task to allow main.py to run. These are provided as files able to download from Google Drive. The outputs of main.py are the testing accuracies of these pre-trained models on an unseen dataset that is pasted into the user's local folder under 'Datasets'.
 
 # Classes
 
