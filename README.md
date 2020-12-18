@@ -67,3 +67,7 @@ This code contains the scripts to train four models for differernt image recogni
     
     - B2 Model download folder, requires saving in B2 folder
     https://drive.google.com/file/d/13QNY7ZXG1pkdTunALnx3_Eu1KqCo8BNE/view?usp=sharing
+    
+- The path to this code folder must be specified at the start of main.py to enable it to run
+
+- For each task, the 
