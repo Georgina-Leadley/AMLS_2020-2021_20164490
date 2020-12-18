@@ -81,3 +81,5 @@ This code contains the scripts to train four models for differernt image recogni
 
 - For tasks A1, A2 and B1, the output of main.py will show an overall testing accuracy score as a percentage
 - For task B2, the output of main.py will show only the individual image prediction scores (the trained model used a sixth 'obscured' class and so is incompatible with input data of five classes)
+
+- For each training script (A1, A2, B1, B2), the path must be changed according to the user's local directory at the beginning of the script
