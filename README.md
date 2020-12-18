@@ -54,6 +54,8 @@ This code contains the scripts to train four models for differernt image recogni
 
 # Instructions for use
 
+- The code main.py will run on any Python platform
+
 - To enable running of main.py, the saved models for each task must be downloaded and added to the folder for the corresponding task:
     
     - A1 Model download folder, requires saving in A1 folder
@@ -70,4 +72,10 @@ This code contains the scripts to train four models for differernt image recogni
     
 - The path to this code folder must be specified at the start of main.py to enable it to run
 
-- For each task, the 
+- For each task, a user input of Y/N is required.
+    - There will be a prompt ("Do you want to print predictions for each image in test set? (Y/N)")
+    - If select no (N), there will be no print-outs of individual predictions
+    - If select yes (Y), the predictions for each individual test image will be shown in the output (can be time/computationally intensive)
+
+- For tasks A1, A2 and B1, the output of main.py will show an overall testing accuracy score as a percentage
+- For task B2, the output of main.py will show only the individual image prediction scores (the trained model used a sixth 'obscured' class and so is incompatible with input data of five classes)
