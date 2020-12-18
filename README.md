@@ -40,20 +40,30 @@ This code contains the scripts to train four models for differernt image recogni
           valid_loader,
           save_file_name,
           scheduler,
-          max_epochs_stop=5,
-          n_epochs=20,
+          max_epochs_stop=5max_epochs_stop,
+          n_epochs=epochs,
           print_every=1,
           ):
     - begins trains model with model.train
     - prints training and validation accuracy and loss
-    - updates weights for next repetition
+    - updates weights for next epoch with model.eval
     - iterates through specified number of epochs
 
+- def crossvalid(model=None, criterion=None, optimizer=None, dataset=None, k_fold=5):
+    - k-fold cross-validation analysis
 
-# Use on command line
+# Instructions for use
 
-- X
+- To enable running of main.py, the saved models for each task must be downloaded and added to the folder for the corresponding task:
     
     - A1 Model download folder, requires saving in A1 folder
     https://drive.google.com/file/d/1-3AU2etnp2I5Fr9D_eicAC_pd1a8G8IH/view?usp=sharing
     
+    - A2 Model download folder, requires saving in A2 folder
+    https://drive.google.com/file/d/1WBLQQFWvOyhIk1EY5bhzX9CRab7uh4KK/view?usp=sharing
+    
+    - B1 Model download folder, requires saving in B1 folder
+    https://drive.google.com/file/d/13oD68J29etXjisbRA5D-X1h3bbK60wZ7/view?usp=sharing
+    
+    - B2 Model download folder, requires saving in B2 folder
+    https://drive.google.com/file/d/13QNY7ZXG1pkdTunALnx3_Eu1KqCo8BNE/view?usp=sharing
