@@ -58,6 +58,8 @@ This code contains the scripts to train four models for differernt image recogni
 
 - To enable running of main.py, the saved models for each task must be downloaded and added to the folder for the corresponding task:
     
+    - Expected extensions are .pth
+    
     - A1 Model download folder, requires saving in A1 folder
     https://drive.google.com/file/d/1-3AU2etnp2I5Fr9D_eicAC_pd1a8G8IH/view?usp=sharing
     
