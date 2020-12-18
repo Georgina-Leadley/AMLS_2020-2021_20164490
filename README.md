@@ -17,6 +17,8 @@ There are...
 
 # Use on command line
 
-- To run via command line: 
+- X
     
-    - first instruction...
+    - A1 Model download folder, requires saving in A1 folder
+    https://drive.google.com/file/d/1-3AU2etnp2I5Fr9D_eicAC_pd1a8G8IH/view?usp=sharing
+    
